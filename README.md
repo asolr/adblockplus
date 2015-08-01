@@ -4,6 +4,7 @@ Adblock Plus for Firefox
 Building
 ---------
 
+
 ### Requirements
 
 - [Python 2.7](https://www.python.org)
@@ -14,6 +15,10 @@ Building
 Run the following in the project directory:
 
     ./build.py build
+
+     or
+
+    ./build.py -t gecko build text.xpi
 
 This will create a build with a name in the form _adblockplus-1.2.3.nnnn.xpi_.
 This file will contain the source code currently in the repository and all
